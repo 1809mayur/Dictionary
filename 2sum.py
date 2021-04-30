@@ -37,3 +37,19 @@ print(two_sum(arr,target))
 
 # time complexity O(n)
 # space complexity O(n)
+
+# arr = [1,2,3,4,5]
+# val = 1
+
+# low = 0
+# high = len(arr)
+# mid = (low+high)//2
+
+# while arr[mid] != val:
+#     if arr[mid] > val:
+#         high = mid
+#         mid = (low+high)//2
+#     else:
+#         low = mid
+#         mid = (low+high)//2
+# print(mid)
